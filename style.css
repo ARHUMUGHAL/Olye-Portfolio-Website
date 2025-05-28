@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Iccomoon';
+    src: url('./Fonts/NGSwv5HMAFg6IuGlBNMjxLsH8ag.woff2');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Iccomoon';
+    background-color: #0E0F0F;
+}
+
+/* <======================================== Color Code ========================================> */
+
+/* #C3C2AD */
+/* #F6F4DA */
+
+/* <======================================== Navbar Code ========================================> */
+
+nav{
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #f6f4da30;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+.logo{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo h1{
+    color: #F6F4DA;
+    font-weight: 400;
+    font-size: 30px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    margin: 0px 20px;
+}
+nav ul li a{
+    color: #F6F4DA;
+    font-size: 18px;
+    text-decoration: none;
+}
+nav ul li:nth-child(6){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(195, 194, 173, 1) 0%, rgba(246, 244, 218, 1) 100%);
+    width: 120px;
+    height: 50px;
+    border-radius: 50px;
+}
+nav ul li:nth-child(6) a{
+    color: black;
+    font-weight: 600;
+    transition: .5s ease;
+}
