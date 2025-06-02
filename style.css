@@ -2,12 +2,14 @@
     font-family: 'Iccomoon';
     src: url('./Fonts/NGSwv5HMAFg6IuGlBNMjxLsH8ag.woff2');
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Iccomoon';
     background-color: #0E0F0F;
 }
@@ -19,7 +21,7 @@ body{
 
 /* <======================================== Navbar Code ========================================> */
 
-nav{
+nav {
     width: 100%;
     height: 100px;
     border-bottom: 1px solid #f6f4da30;
@@ -28,32 +30,38 @@ nav{
     justify-content: space-between;
     padding: 0px 30px;
 }
-.logo{
+
+.logo {
     width: 200px;
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.logo h1{
+
+.logo h1 {
     color: #F6F4DA;
     font-weight: 400;
     font-size: 30px;
 }
-nav ul{
+
+nav ul {
     list-style: none;
     display: flex;
     align-items: center;
 }
-nav ul li{
+
+nav ul li {
     margin: 0px 20px;
 }
-nav ul li a{
+
+nav ul li a {
     color: #F6F4DA;
     font-size: 18px;
     text-decoration: none;
 }
-nav ul li:nth-child(6){
+
+nav ul li:nth-child(6) {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,7 +70,8 @@ nav ul li:nth-child(6){
     height: 50px;
     border-radius: 50px;
 }
-nav ul li:nth-child(6) a{
+
+nav ul li:nth-child(6) a {
     color: black;
     font-weight: 600;
     transition: .5s ease;
@@ -70,7 +79,7 @@ nav ul li:nth-child(6) a{
 
 /* <======================================== Herobox Code ========================================> */
 
-.herobox{
+.herobox {
     width: 100%;
     height: 100vh;
     background-color: black;
@@ -78,39 +87,45 @@ nav ul li:nth-child(6) a{
     align-items: center;
     justify-content: center;
 }
-.container{
+
+.container {
     width: 80%;
     height: 80%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.content{
+
+.content {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.content span{
-    color:#C3C2AD;
+
+.content span {
+    color: #C3C2AD;
     font-size: 18px;
     opacity: 80%;
 }
-.content h1{
+
+.content h1 {
     color: #C3C2AD;
     font-size: 54px;
     width: 60%;
     font-weight: 400;
     margin-top: 10px;
 }
-.content p{
+
+.content p {
     color: #C3C2AD;
     width: 45%;
     line-height: 25px;
     margin-top: 15px;
     opacity: 80%;
 }
-.buttons{
+
+.buttons {
     width: 400px;
     height: 60px;
     margin-top: 30px;
@@ -118,7 +133,8 @@ nav ul li:nth-child(6) a{
     align-items: center;
     justify-content: space-between;
 }
-.buttons a.active{
+
+.buttons a.active {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -130,21 +146,25 @@ nav ul li:nth-child(6) a{
     text-decoration: none;
     border-radius: 50px;
 }
-.buttons a{
+
+.buttons a {
     text-decoration: none;
     color: #C3C2AD;
     font-weight: 600;
     font-size: 20px;
 }
-.buttons a i{
+
+.buttons a i {
     font-size: 20px;
     margin: 0px 10px;
     font-weight: 200;
 }
-.image{
+
+.image {
     height: 100%;
 }
-.image-container{
+
+.image-container {
     width: 350px;
     height: 500px;
     background-image: url('./Images/1.jpeg');
@@ -154,13 +174,14 @@ nav ul li:nth-child(6) a{
     border-radius: 300px;
 }
 
-.identity-1{
+.identity-1 {
     width: 170px;
     height: 55px;
     position: absolute;
     right: 25%;
 }
-.identity-1 a{
+
+.identity-1 a {
     text-decoration: none;
     width: 150px;
     height: 30px;
@@ -174,7 +195,8 @@ nav ul li:nth-child(6) a{
     position: absolute;
     bottom: 0%;
 }
-.identity-1 i{
+
+.identity-1 i {
     color: rgb(255, 217, 0);
     font-size: larger;
     position: absolute;
@@ -184,14 +206,15 @@ nav ul li:nth-child(6) a{
 
 
 
-.identity-2{
+.identity-2 {
     width: 170px;
     height: 55px;
     position: absolute;
     right: 10%;
     bottom: 10%;
 }
-.identity-2 a{
+
+.identity-2 a {
     text-decoration: none;
     width: 150px;
     height: 30px;
@@ -206,7 +229,8 @@ nav ul li:nth-child(6) a{
     bottom: 0%;
     right: 0%;
 }
-.identity-2 i{
+
+.identity-2 i {
     color: rgb(255, 217, 0);
     font-size: larger;
     position: absolute;
@@ -217,3 +241,268 @@ nav ul li:nth-child(6) a{
 
 /* #C3C2AD */
 /* #F6F4DA */
+
+
+/* <!-- <======================================== Services Section Code ========================================> --> */
+
+.service-section {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(19, 19, 19);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-container {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.service-container .heading {
+    width: 100%;
+    height: 50px;
+}
+
+.service-container .heading h1 {
+    color: #F6F4DA;
+    font-weight: 400;
+    font-size: 44px;
+}
+
+.service-container .top-row {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-container .top-row .digital-branding {
+    width: 58%;
+    height: 100%;
+    background-color: rgb(29, 29, 29);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.service-container .top-row .digital-branding .digitalbranding-header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service-container .top-row .digital-branding .digitalbranding-header a {
+    text-decoration: none;
+    color: #F6F4DA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #C3C2AD;
+    width: 50px;
+    height: 35px;
+    border-radius: 10px;
+    opacity: 50%;
+}
+
+.service-container .top-row .digital-branding .digitalbranding-header i {
+    color: #F6F4DA;
+    font-size: larger;
+    transform: rotate(45deg);
+}
+
+.service-container .top-row .digital-branding .digitalbranding-content {
+    width: 100%;
+}
+
+.service-container .top-row .digital-branding h1 {
+    color: #F6F4DA;
+    font-size: 34px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.service-container .top-row .digital-branding p {
+    color: #F6F4DA;
+    width: 80%;
+    opacity: 40%;
+}
+
+.service-container .top-row .visual-identity {
+    width: 40%;
+    height: 100%;
+    background-color: rgb(29, 29, 29);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.service-container .top-row .visual-identity .visualidentity-header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service-container .top-row .visual-identity .visualidentity-header a {
+    text-decoration: none;
+    color: #F6F4DA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #C3C2AD;
+    width: 50px;
+    height: 35px;
+    border-radius: 10px;
+    opacity: 50%;
+}
+
+.service-container .top-row .visual-identity .visualidentity-header i {
+    color: #F6F4DA;
+    font-size: larger;
+    transform: rotate(45deg);
+}
+
+.service-container .top-row .visual-identity .visualidentity-content {
+    width: 100%;
+}
+
+.service-container .top-row .visual-identity h1 {
+    color: #F6F4DA;
+    font-size: 34px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.service-container .top-row .visual-identity p {
+    color: #F6F4DA;
+    width: 80%;
+    opacity: 40%;
+}
+
+.service-container .bottom-row {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-container .bottom-row .user-research {
+    width: 40%;
+    height: 100%;
+    background-color: rgb(29, 29, 29);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.service-container .bottom-row .user-research .userresearch-header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service-container .bottom-row .user-research .userresearch-header a {
+    text-decoration: none;
+    color: #F6F4DA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #C3C2AD;
+    width: 50px;
+    height: 35px;
+    border-radius: 10px;
+    opacity: 50%;
+}
+
+.service-container .bottom-row .user-research .userresearch-header i {
+    color: #F6F4DA;
+    font-size: larger;
+    transform: rotate(45deg);
+}
+
+.service-container .bottom-row .user-research .userresearch-content {
+    width: 100%;
+}
+
+.service-container .bottom-row .user-research h1 {
+    color: #F6F4DA;
+    font-size: 34px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.service-container .bottom-row .user-research p {
+    color: #F6F4DA;
+    width: 80%;
+    opacity: 40%;
+}
+
+.service-container .bottom-row .art-direction {
+    width: 58%;
+    height: 100%;
+    background-color: rgb(29, 29, 29);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.service-container .bottom-row .art-direction .artdirection-header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service-container .bottom-row .art-direction .artdirection-header a {
+    text-decoration: none;
+    color: #F6F4DA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #C3C2AD;
+    width: 50px;
+    height: 35px;
+    border-radius: 10px;
+    opacity: 50%;
+}
+
+.service-container .bottom-row .art-direction .artdirection-header i {
+    color: #F6F4DA;
+    font-size: larger;
+    transform: rotate(45deg);
+}
+
+.service-container .bottom-row .art-direction .artdirection-content {
+    width: 100%;
+}
+
+.service-container .bottom-row .art-direction h1 {
+    color: #F6F4DA;
+    font-size: 34px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.service-container .bottom-row .art-direction p {
+    color: #F6F4DA;
+    width: 80%;
+    opacity: 40%;
+}
