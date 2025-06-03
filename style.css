@@ -506,3 +506,265 @@ nav ul li:nth-child(6) a {
     width: 80%;
     opacity: 40%;
 }
+
+
+/* <!-- <======================================== Work Section Code ========================================> --> */
+
+.Works{
+    width: 100%;
+    height: 230vh;
+    background-color: #0E0F0F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Works .work-container{
+    width: 80%;
+    height: 82%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Works .work-container .content-header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-heading{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.work-heading h1{
+    color: #F6F4DA;
+    font-weight: 400;
+    font-size: 44px;
+}
+
+.navigation-buttons{
+    width: 520px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation-buttons span{
+    width: 120px;
+    height: 50px;
+    border: 1px solid #F6F4DA;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F6F4DA;
+    opacity: 40%;
+}
+
+.navigation-buttons span.active{
+    background: linear-gradient(90deg, rgba(195, 194, 173, 1) 0%, rgba(246, 244, 218, 1) 100%);
+    color: black;
+        opacity: 100%;
+}
+
+.Works .work-container .top-image-container{
+    width: 100%;
+    height: 640px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Works .work-container .top-image-container .B-O{
+    width: 49%;
+    height: 100%;
+    background-color: rgb(29, 29, 29);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Works .work-container .top-image-container .B-O .B-O-image{
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.Works .work-container .top-image-container .B-O .B-O-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.Works .work-container .top-image-container .B-O .B-O-heading{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.Works .work-container .top-image-container .B-O .B-O-heading h1{
+    color: #F6F4DA;
+    font-weight: 400;
+}
+.Works .work-container .top-image-container .B-O .B-O-heading i{
+    color: #F6F4DA;
+    transform: rotate(45deg);
+    margin-right: 10px;
+    font-size: larger;
+}
+.Works .work-container .top-image-container .B-O p{
+    color: #F6F4DA;
+    margin-bottom: 20px;
+}
+.Works .work-container .top-image-container .Cozmetic{
+    width: 49%;
+    height: 100%;
+    background-color: rgb(29, 29, 29);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.Works .work-container .top-image-container .Cozmetic .Cozmetic-image{
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.Works .work-container .top-image-container .Cozmetic .Cozmetic-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.Works .work-container .top-image-container .Cozmetic .Cozmetic-heading{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.Works .work-container .top-image-container .Cozmetic .Cozmetic-heading h1{
+    color: #F6F4DA;
+    font-weight: 400;
+}
+.Works .work-container .top-image-container .Cozmetic .Cozmetic-heading i{
+    color: #F6F4DA;
+    transform: rotate(45deg);
+    margin-right: 10px;
+    font-size: larger;
+}
+.Works .work-container .top-image-container .Cozmetic p{
+    color: #F6F4DA;
+    margin-bottom: 20px;
+}
+
+.Works .work-container .bottom-image-container{
+    width: 100%;
+    height: 640px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Works .work-container .bottom-image-container .Xendou{
+    width: 49%;
+    height: 100%;
+    background-color: rgb(29, 29, 29);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Works .work-container .bottom-image-container .Xendou .Xendou-image{
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.Works .work-container .bottom-image-container .Xendou .Xendou-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    object-position: center;
+}
+.Works .work-container .bottom-image-container .Xendou .Xendou-heading{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.Works .work-container .bottom-image-container .Xendou .Xendou-heading h1{
+    color: #F6F4DA;
+    font-weight: 400;
+}
+.Works .work-container .bottom-image-container .Xendou .Xendou-heading i{
+    color: #F6F4DA;
+    transform: rotate(45deg);
+    margin-right: 10px;
+    font-size: larger;
+}
+.Works .work-container .bottom-image-container .Xendou p{
+    color: #F6F4DA;
+    margin-bottom: 20px;
+}
+.Works .work-container .bottom-image-container .Blvck{
+    width: 49%;
+    height: 100%;
+    background-color: rgb(29, 29, 29);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.Works .work-container .bottom-image-container .Blvck .Blvck-image{
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+
+.Works .work-container .bottom-image-container .Blvck .Blvck-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.Works .work-container .bottom-image-container .Blvck .Blvck-heading{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.Works .work-container .bottom-image-container .Blvck .Blvck-heading h1{
+    color: #F6F4DA;
+    font-weight: 400;
+}
+.Works .work-container .bottom-image-container .Blvck .Blvck-heading i{
+    color: #F6F4DA;
+    transform: rotate(45deg);
+    margin-right: 10px;
+    font-size: larger;
+}
+.Works .work-container .bottom-image-container .Blvck p{
+    color: #F6F4DA;
+    margin-bottom: 20px;
+}
