@@ -510,7 +510,7 @@ nav ul li:nth-child(6) a {
 
 /* <!-- <======================================== Work Section Code ========================================> --> */
 
-.Works{
+.Works {
     width: 100%;
     height: 230vh;
     background-color: #0E0F0F;
@@ -519,7 +519,7 @@ nav ul li:nth-child(6) a {
     justify-content: center;
 }
 
-.Works .work-container{
+.Works .work-container {
     width: 80%;
     height: 82%;
     display: flex;
@@ -527,27 +527,27 @@ nav ul li:nth-child(6) a {
     justify-content: space-between;
 }
 
-.Works .work-container .content-header{
+.Works .work-container .content-header {
     width: 100%;
     height: 60px;
     display: flex;
     justify-content: space-between;
 }
 
-.work-heading{
+.work-heading {
     width: 200px;
     height: 100%;
     display: flex;
     align-items: center;
 }
 
-.work-heading h1{
+.work-heading h1 {
     color: #F6F4DA;
     font-weight: 400;
     font-size: 44px;
 }
 
-.navigation-buttons{
+.navigation-buttons {
     width: 520px;
     height: 100%;
     display: flex;
@@ -555,7 +555,7 @@ nav ul li:nth-child(6) a {
     justify-content: space-between;
 }
 
-.navigation-buttons span{
+.navigation-buttons span {
     width: 120px;
     height: 50px;
     border: 1px solid #F6F4DA;
@@ -567,64 +567,20 @@ nav ul li:nth-child(6) a {
     opacity: 40%;
 }
 
-.navigation-buttons span.active{
+.navigation-buttons span.active {
     background: linear-gradient(90deg, rgba(195, 194, 173, 1) 0%, rgba(246, 244, 218, 1) 100%);
     color: black;
-        opacity: 100%;
+    opacity: 100%;
 }
 
-.Works .work-container .top-image-container{
+.Works .work-container .top-image-container {
     width: 100%;
     height: 640px;
     display: flex;
     justify-content: space-between;
 }
 
-.Works .work-container .top-image-container .B-O{
-    width: 49%;
-    height: 100%;
-    background-color: rgb(29, 29, 29);
-    border-radius: 10px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.Works .work-container .top-image-container .B-O .B-O-image{
-    width: 100%;
-    height: 80%;
-    overflow: hidden;
-    border-radius: 10px;
-}
-
-.Works .work-container .top-image-container .B-O .B-O-image img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-}
-.Works .work-container .top-image-container .B-O .B-O-heading{
-    width: 100%;
-    height: 40px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-.Works .work-container .top-image-container .B-O .B-O-heading h1{
-    color: #F6F4DA;
-    font-weight: 400;
-}
-.Works .work-container .top-image-container .B-O .B-O-heading i{
-    color: #F6F4DA;
-    transform: rotate(45deg);
-    margin-right: 10px;
-    font-size: larger;
-}
-.Works .work-container .top-image-container .B-O p{
-    color: #F6F4DA;
-    margin-bottom: 20px;
-}
-.Works .work-container .top-image-container .Cozmetic{
+.Works .work-container .top-image-container .B-O {
     width: 49%;
     height: 100%;
     background-color: rgb(29, 29, 29);
@@ -635,50 +591,104 @@ nav ul li:nth-child(6) a {
     justify-content: space-between;
 }
 
-
-.Works .work-container .top-image-container .Cozmetic .Cozmetic-image{
+.Works .work-container .top-image-container .B-O .B-O-image {
     width: 100%;
     height: 80%;
     overflow: hidden;
     border-radius: 10px;
 }
 
-.Works .work-container .top-image-container .Cozmetic .Cozmetic-image img{
+.Works .work-container .top-image-container .B-O .B-O-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
 }
-.Works .work-container .top-image-container .Cozmetic .Cozmetic-heading{
+
+.Works .work-container .top-image-container .B-O .B-O-heading {
     width: 100%;
     height: 40px;
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
-.Works .work-container .top-image-container .Cozmetic .Cozmetic-heading h1{
+
+.Works .work-container .top-image-container .B-O .B-O-heading h1 {
     color: #F6F4DA;
     font-weight: 400;
 }
-.Works .work-container .top-image-container .Cozmetic .Cozmetic-heading i{
+
+.Works .work-container .top-image-container .B-O .B-O-heading i {
     color: #F6F4DA;
     transform: rotate(45deg);
     margin-right: 10px;
     font-size: larger;
 }
-.Works .work-container .top-image-container .Cozmetic p{
+
+.Works .work-container .top-image-container .B-O p {
     color: #F6F4DA;
     margin-bottom: 20px;
 }
 
-.Works .work-container .bottom-image-container{
+.Works .work-container .top-image-container .Cozmetic {
+    width: 49%;
+    height: 100%;
+    background-color: rgb(29, 29, 29);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.Works .work-container .top-image-container .Cozmetic .Cozmetic-image {
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.Works .work-container .top-image-container .Cozmetic .Cozmetic-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.Works .work-container .top-image-container .Cozmetic .Cozmetic-heading {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.Works .work-container .top-image-container .Cozmetic .Cozmetic-heading h1 {
+    color: #F6F4DA;
+    font-weight: 400;
+}
+
+.Works .work-container .top-image-container .Cozmetic .Cozmetic-heading i {
+    color: #F6F4DA;
+    transform: rotate(45deg);
+    margin-right: 10px;
+    font-size: larger;
+}
+
+.Works .work-container .top-image-container .Cozmetic p {
+    color: #F6F4DA;
+    margin-bottom: 20px;
+}
+
+.Works .work-container .bottom-image-container {
     width: 100%;
     height: 640px;
     display: flex;
     justify-content: space-between;
 }
 
-.Works .work-container .bottom-image-container .Xendou{
+.Works .work-container .bottom-image-container .Xendou {
     width: 49%;
     height: 100%;
     background-color: rgb(29, 29, 29);
@@ -688,40 +698,47 @@ nav ul li:nth-child(6) a {
     flex-direction: column;
     justify-content: space-between;
 }
-.Works .work-container .bottom-image-container .Xendou .Xendou-image{
+
+.Works .work-container .bottom-image-container .Xendou .Xendou-image {
     width: 100%;
     height: 80%;
     overflow: hidden;
     border-radius: 10px;
 }
-.Works .work-container .bottom-image-container .Xendou .Xendou-image img{
+
+.Works .work-container .bottom-image-container .Xendou .Xendou-image img {
     width: 100%;
     height: 100%;
     object-fit: fill;
     object-position: center;
 }
-.Works .work-container .bottom-image-container .Xendou .Xendou-heading{
+
+.Works .work-container .bottom-image-container .Xendou .Xendou-heading {
     width: 100%;
     height: 40px;
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
-.Works .work-container .bottom-image-container .Xendou .Xendou-heading h1{
+
+.Works .work-container .bottom-image-container .Xendou .Xendou-heading h1 {
     color: #F6F4DA;
     font-weight: 400;
 }
-.Works .work-container .bottom-image-container .Xendou .Xendou-heading i{
+
+.Works .work-container .bottom-image-container .Xendou .Xendou-heading i {
     color: #F6F4DA;
     transform: rotate(45deg);
     margin-right: 10px;
     font-size: larger;
 }
-.Works .work-container .bottom-image-container .Xendou p{
+
+.Works .work-container .bottom-image-container .Xendou p {
     color: #F6F4DA;
     margin-bottom: 20px;
 }
-.Works .work-container .bottom-image-container .Blvck{
+
+.Works .work-container .bottom-image-container .Blvck {
     width: 49%;
     height: 100%;
     background-color: rgb(29, 29, 29);
@@ -733,7 +750,7 @@ nav ul li:nth-child(6) a {
 }
 
 
-.Works .work-container .bottom-image-container .Blvck .Blvck-image{
+.Works .work-container .bottom-image-container .Blvck .Blvck-image {
     width: 100%;
     height: 80%;
     overflow: hidden;
@@ -741,30 +758,437 @@ nav ul li:nth-child(6) a {
 }
 
 
-.Works .work-container .bottom-image-container .Blvck .Blvck-image img{
+.Works .work-container .bottom-image-container .Blvck .Blvck-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
 }
-.Works .work-container .bottom-image-container .Blvck .Blvck-heading{
+
+.Works .work-container .bottom-image-container .Blvck .Blvck-heading {
     width: 100%;
     height: 40px;
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
-.Works .work-container .bottom-image-container .Blvck .Blvck-heading h1{
+
+.Works .work-container .bottom-image-container .Blvck .Blvck-heading h1 {
     color: #F6F4DA;
     font-weight: 400;
 }
-.Works .work-container .bottom-image-container .Blvck .Blvck-heading i{
+
+.Works .work-container .bottom-image-container .Blvck .Blvck-heading i {
     color: #F6F4DA;
     transform: rotate(45deg);
     margin-right: 10px;
     font-size: larger;
 }
-.Works .work-container .bottom-image-container .Blvck p{
+
+.Works .work-container .bottom-image-container .Blvck p {
     color: #F6F4DA;
     margin-bottom: 20px;
+}
+
+
+/* <!-- <======================================== About Me Section Code ========================================> --> */
+
+.about-me {
+    width: 100%;
+    height: 280vh;
+    background-color: rgb(19, 19, 19);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-container {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-header {
+    width: 100%;
+    height: 60px;
+}
+
+.about-header h1 {
+    color: #F6F4DA;
+    font-size: 44px;
+    font-weight: 400;
+}
+
+.about-first-row {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-profile-image {
+    width: 30%;
+    height: 100%;
+    background-color: #1D1D1D;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-mask {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.img-mask img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-intro {
+    width: 68%;
+    height: 100%;
+    background-color: #1D1D1D;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 50px;
+    gap: 20px;
+}
+
+.about-intro h1 {
+    color: #F6F4DA;
+    font-weight: 400;
+}
+
+.about-intro p.first {
+    color: #c3c2ad71;
+    font-size: 18px;
+    width: 85%;
+    line-height: 28px;
+}
+
+.about-intro p.second {
+    color: #c3c2ad71;
+    font-size: 18px;
+    width: 85%;
+    line-height: 28px;
+}
+
+.about-second-row {
+    width: 100%;
+    height: 540px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience {
+    width: 49%;
+    height: 100%;
+    background-color: #1D1D1D;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.expe-content-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.expe-content-container h1.expe-heading {
+    color: #F6F4DA;
+    font-weight: 400;
+}
+
+.Freelancing {
+    width: 100%;
+    height: 85px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.Freelancing .icon {
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Freelancing .icon img {
+    transform: scale(1.2);
+}
+
+.related-content {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.related-content h3 {
+    color: #F6F4DA;
+    font-weight: 400;
+}
+
+.related-content h3 span {
+    opacity: 60%;
+}
+
+.related-content a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #F6F4DA;
+    text-decoration: none;
+    color: #F6F4DA;
+    width: 180px;
+    opacity: 50%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.Product-Designer {
+    width: 100%;
+    height: 85px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.Product-Designer .icon {
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Product-Designer .icon img {
+    transform: scale(1.2);
+}
+
+.Creative-head {
+    width: 100%;
+    height: 85px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.Creative-head .icon {
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Creative-head .icon img {
+    transform: scale(1.2);
+}
+
+.Design-inter {
+    width: 100%;
+    height: 85px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.Design-inter .icon {
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Design-inter .icon img {
+    transform: scale(1.2);
+}
+
+.education {
+    width: 49%;
+    height: 100%;
+    background-color: #1D1D1D;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+
+.about-third-row {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills {
+    width: 73%;
+    height: 100%;
+    background-color: #1D1D1D;
+    border-radius: 10px;
+    display: flex;
+    padding: 50px;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.skills h1 {
+    color: #F6F4DA;
+    font-weight: 400;
+}
+
+.skiil-software {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.figma {
+    width: 150px;
+    height: 100%;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.software-icon {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.software-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transform: scale(0.8);
+}
+
+.figma p {
+    color: #F6F4DA;
+}
+
+.skill-name {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skill-name p {
+    color: #F6F4DA;
+    font-size: larger;
+}
+
+.skill-duration {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.years-of-experience {
+    width: 100%;
+    height: 215px;
+    background-color: #1D1D1D;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.years-of-experience h1{
+    color: #F6F4DA;
+    font-size: 44px;
+}
+.years-of-experience p{
+    color: #F6F4DA;
+    font-size: larger;
+    width: 30%;
+    text-align: center;
+}
+
+.projects {
+    width: 100%;
+    height: 215px;
+    background-color: #1D1D1D;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.projects h1{
+    color: #F6F4DA;
+    font-size: 44px;
+}
+.projects p{
+    color: #F6F4DA;
+    font-size: larger;
+    width: 30%;
+    text-align: center;
+}
+
+.about-fotter {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.about-fotter a.active{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    text-decoration: none;
+    color: black;
+    border-radius: 50px;
+    background: linear-gradient(90deg, rgba(195, 194, 173, 1) 0%, rgba(246, 244, 218, 1) 100%);
+    font-size: 16px;
+}
+.about-fotter a{
+    text-decoration: none;
+    color: #F6F4DA; 
+        font-size: 20px;
+}
+.about-fotter a i{
+    margin-right: 5px;
+    font-size: 20px;
 }
