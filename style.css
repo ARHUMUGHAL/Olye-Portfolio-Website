@@ -1261,3 +1261,131 @@ nav ul li:nth-child(6) a {
 .indicator-circles span.active{
         background-color: #f6f4dab4;
 }
+
+
+/* <======================================== Articles Section Code ========================================> */
+
+.articles{
+    width: 100%;
+    height: 120vh;
+    background-color: #0E0F0F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.article-container{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+
+.article-header{
+    width: 100%;
+    height: 50px;
+}
+.article-header h1{
+    color: #F6F4DA;
+    font-weight: 400;
+    font-size: 44px;
+}
+.article-wrap{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+.article{
+    width: 400px;
+    height: 100%;
+    background-color: #1D1D1D;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.article-image{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.article-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.catergory-btn{
+    width: 130px;
+    height: 35px;
+    border: 1px solid #F6F4DA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+.catergory-btn p{
+    color: #F6F4DA;
+}
+.article h2{
+    color: #F6F4DA;
+    font-weight: 400;
+    width: 80%;
+}
+.article-footer{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.article-footer p{
+    color: #F6F4DA;
+}
+.article-footer p i{
+    margin: 0px 5px;
+}
+.navigation-buttons{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-wrap{
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.left-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #131313;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-icon i{
+    color: #C3C2AD;
+}
+
+.right-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #131313;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-icon i{
+    color: #C3C2AD;
+}
