@@ -29,26 +29,33 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 0px 30px;
+    overflow: hidden;
 }
 
 .logo {
-    width: 200px;
+    width: 220px;
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 .logo h1 {
     color: #F6F4DA;
     font-weight: 400;
     font-size: 30px;
+    position: relative;
+    left: -200px;
+    cursor: pointer;
 }
 
 nav ul {
     list-style: none;
     display: flex;
     align-items: center;
+    position: relative;
+    right: -720px;
 }
 
 nav ul li {
