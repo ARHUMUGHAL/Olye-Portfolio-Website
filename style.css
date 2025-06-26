@@ -110,10 +110,17 @@ nav ul li:nth-child(6) a {
     justify-content: center;
 }
 
-.content span {
+.content span{
+    width: 80%;
+    overflow: hidden;
+}
+
+.content span p {
     color: #C3C2AD;
     font-size: 18px;
     opacity: 80%;
+    position: relative;
+    top: 80px;
 }
 
 .content h1 {
@@ -122,14 +129,20 @@ nav ul li:nth-child(6) a {
     width: 60%;
     font-weight: 400;
     margin-top: 10px;
+    position: relative;
+    top: 50px;
+    opacity: 0%;
 }
 
-.content p {
+.content p.hero-description {
     color: #C3C2AD;
     width: 45%;
     line-height: 25px;
     margin-top: 15px;
     opacity: 80%;
+        position: relative;
+    top: 50px;
+    opacity: 0%;
 }
 
 .buttons {
@@ -139,6 +152,9 @@ nav ul li:nth-child(6) a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+    top: 50px;
+    opacity: 0%;
 }
 
 .buttons a.active {
@@ -179,6 +195,11 @@ nav ul li:nth-child(6) a {
     background-size: cover;
     background-position: center;
     border-radius: 300px;
+    transition: .5s linear;
+    cursor: pointer;
+}
+.image-container:hover{
+    transform: scale(1.05);
 }
 
 .identity-1 {
