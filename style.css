@@ -63,9 +63,13 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #F6F4DA;
+    color: #f6f4da6d;
     font-size: 18px;
     text-decoration: none;
+    transition: .3s linear;
+}
+nav ul li a:hover{
+        color: #f6f4dac9;
 }
 
 nav ul li:nth-child(6) {
@@ -76,8 +80,19 @@ nav ul li:nth-child(6) {
     width: 120px;
     height: 50px;
     border-radius: 50px;
+    overflow: hidden;
+    position: relative;
+    transition: .5s  linear;
 }
 
+.nav-btn-shine{
+    width: 50px;
+    height: 80px;
+    transform: rotate(-25deg);
+    background-color: #f6f4da50;
+    position: absolute;
+    left: -80px;
+}
 nav ul li:nth-child(6) a {
     color: black;
     font-weight: 600;
@@ -110,12 +125,12 @@ nav ul li:nth-child(6) a {
     justify-content: center;
 }
 
-.content span{
+.content span.top-heading{
     width: 80%;
     overflow: hidden;
 }
 
-.content span p {
+.content span.top-heading p {
     color: #C3C2AD;
     font-size: 18px;
     opacity: 80%;
@@ -123,16 +138,22 @@ nav ul li:nth-child(6) a {
     top: 80px;
 }
 
-.content h1 {
+.herobox .content h1 {
     color: #C3C2AD;
     font-size: 54px;
     width: 60%;
+    height: 150px;
     font-weight: 400;
-    margin-top: 10px;
-    position: relative;
-    top: 50px;
-    opacity: 0%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
+.herobox .content h1 span{
+    display: inline-block;
+}
+
+
 
 .content p.hero-description {
     color: #C3C2AD;
@@ -195,8 +216,10 @@ nav ul li:nth-child(6) a {
     background-size: cover;
     background-position: center;
     border-radius: 300px;
-    transition: .5s linear;
+    /* transition: .5s linear; */
     cursor: pointer;
+    transform: scale(0);
+    opacity: 0%;
 }
 .image-container:hover{
     transform: scale(1.05);
