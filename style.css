@@ -322,6 +322,9 @@ nav ul li:nth-child(6) a {
     color: #F6F4DA;
     font-weight: 400;
     font-size: 44px;
+    position: relative;
+    left: -200px;
+    opacity: 0%;
 }
 
 .service-container .top-row {
@@ -329,6 +332,13 @@ nav ul li:nth-child(6) a {
     height: 250px;
     display: flex;
     justify-content: space-between;
+}
+
+
+.service-container .service-box{
+    position: relative;
+    top: 200px;
+    opacity: 0%;
 }
 
 .service-container .top-row .digital-branding {
@@ -340,6 +350,20 @@ nav ul li:nth-child(6) a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.service-box-shine{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    transform: rotate(-20deg);
+    top: -20px;
+    left: -100px;
+    background-color: rgba(255, 255, 255, 0.032);
+    position: absolute;
 }
 
 .service-container .top-row .digital-branding .digitalbranding-header {
@@ -348,6 +372,7 @@ nav ul li:nth-child(6) a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 999;
 }
 
 .service-container .top-row .digital-branding .digitalbranding-header a {
@@ -361,6 +386,11 @@ nav ul li:nth-child(6) a {
     height: 35px;
     border-radius: 10px;
     opacity: 50%;
+    transition: .5s;
+}
+.service-container .top-row .digital-branding .digitalbranding-header a:hover{
+    background-color: #F6F4DA;
+    color: black;
 }
 
 .service-container .top-row .digital-branding .digitalbranding-header i {
@@ -395,6 +425,19 @@ nav ul li:nth-child(6) a {
     flex-direction: column;
     justify-content: space-between;
     padding: 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.service-box-shine-visual{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    transform: rotate(-20deg);
+    bottom: -20px;
+    right: -100px;
+    background-color: rgba(255, 255, 255, 0.032);
+    position: absolute;
 }
 
 .service-container .top-row .visual-identity .visualidentity-header {
@@ -416,6 +459,11 @@ nav ul li:nth-child(6) a {
     height: 35px;
     border-radius: 10px;
     opacity: 50%;
+    transition: .5s;
+}
+.service-container .top-row .visual-identity .visualidentity-header a:hover{
+    background-color: #F6F4DA;
+    color: #0E0F0F;
 }
 
 .service-container .top-row .visual-identity .visualidentity-header i {
@@ -457,6 +505,19 @@ nav ul li:nth-child(6) a {
     flex-direction: column;
     justify-content: space-between;
     padding: 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.service-box-shine-user-research{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    transform: rotate(-20deg);
+    top: -20px;
+    left: -100px;
+    background-color: rgba(255, 255, 255, 0.032);
+    position: absolute;
 }
 
 .service-container .bottom-row .user-research .userresearch-header {
@@ -478,6 +539,11 @@ nav ul li:nth-child(6) a {
     height: 35px;
     border-radius: 10px;
     opacity: 50%;
+    transition: .5s;
+}
+.service-container .bottom-row .user-research .userresearch-header a:hover{
+    background-color: #F6F4DA;
+    color: black;
 }
 
 .service-container .bottom-row .user-research .userresearch-header i {
@@ -512,6 +578,19 @@ nav ul li:nth-child(6) a {
     flex-direction: column;
     justify-content: space-between;
     padding: 20px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.service-box-shine-art-direction{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    transform: rotate(-20deg);
+    bottom: -20px;
+    right: -100px;
+    background-color: rgba(255, 255, 255, 0.032);
+    position: absolute;
 }
 
 .service-container .bottom-row .art-direction .artdirection-header {
@@ -533,6 +612,11 @@ nav ul li:nth-child(6) a {
     height: 35px;
     border-radius: 10px;
     opacity: 50%;
+    transition: .5s;
+}
+.service-container .bottom-row .art-direction .artdirection-header a:hover{
+    background-color: #F6F4DA;
+    color: #0E0F0F;
 }
 
 .service-container .bottom-row .art-direction .artdirection-header i {

@@ -34,19 +34,17 @@ function NavbarAnimation() {
 NavbarAnimation()
 
 
-
-
 function HeroboxAnimation() {
     const span = document.querySelector('.content span p')
     const heroboxH1 = document.querySelector('.content h1')
     const heroboxH1Content = heroboxH1.textContent.split(' ')
     let heroboxH1Word = ''
-    heroboxH1Content.forEach(function(elem){
+    heroboxH1Content.forEach(function (elem) {
         heroboxH1Word += `<span class="hero-heading-span">${elem}</span>`
     })
 
     heroboxH1.innerHTML = heroboxH1Word
-    
+
 
 
 
@@ -59,7 +57,7 @@ function HeroboxAnimation() {
         y: '150px',
         duration: .5,
         delay: .5,
-        stagger : 0.08
+        stagger: 0.08
     })
 
     gsap.to('.content p.hero-description', {
@@ -69,10 +67,10 @@ function HeroboxAnimation() {
         delay: 1
     })
 
-    gsap.to('.image-container',{
-        opacity : 1,
-        scale : 1,
-        duration : 1
+    gsap.to('.image-container', {
+        opacity: 1,
+        scale: 1,
+        duration: 1
     })
 
 
@@ -103,3 +101,178 @@ function HeroboxAnimation() {
 }
 
 HeroboxAnimation()
+
+gsap.to('.service-container .heading h1', {
+    x: '200px',
+    opacity: 1,
+    duration: 1,
+    scrollTrigger: {
+        start: '5% top',
+        end: '15% bottom'
+    }
+})
+
+gsap.to('.service-container .service-box', {
+    y: '-200px',
+    opacity: 1,
+    duration: 1,
+    scrollTrigger: {
+        start: '5% top',
+        end: '15% bottom'
+    },
+    stagger: 0.09
+})
+
+const digitalBrandingService = document.querySelector('.service-container .top-row .digital-branding')
+const digitalBrandingShine = document.querySelector(".service-box-shine")
+const digitalBrandingArrow = document.querySelector('.service-container .top-row .digital-branding .digitalbranding-header i')
+
+
+digitalBrandingService.addEventListener('mouseenter',function(){
+    gsap.to(digitalBrandingService,{
+        scale : 1.03,
+        duration : 1,
+    })
+    gsap.to(digitalBrandingArrow,{
+        transform : 'rotate(90deg)'
+    })
+    gsap.to(digitalBrandingShine,{
+        // x : '820px',
+        width : '400px',
+        height : '400px',
+        borderRadius : '500px',
+        duration : 1
+    })
+})
+
+digitalBrandingService.addEventListener('mouseleave',function(){
+    gsap.to(digitalBrandingService,{
+        scale : 1,
+        duration : 1,
+    })
+        gsap.to(digitalBrandingArrow,{
+        transform : 'rotate(45deg)'
+    })
+        gsap.to(digitalBrandingShine,{
+        // x : '-50px',
+        width : '20px',
+        height : '20px',
+        duration : 1
+    })
+})
+
+const visualIdentityService = document.querySelector('.service-container .top-row .visual-identity')
+const visualIdentityShine = document.querySelector(".service-box-shine-visual")
+const visualIdentityArrow = document.querySelector('.service-container .top-row .visual-identity .visualidentity-header i')
+
+
+visualIdentityService.addEventListener('mouseenter',function(){
+    gsap.to(visualIdentityService,{
+        scale : 1.03,
+        duration : 1,
+    })
+    gsap.to(visualIdentityArrow,{
+        transform : 'rotate(90deg)'
+    })
+    gsap.to(visualIdentityShine,{
+        // x : '820px',
+        width : '400px',
+        height : '400px',
+        borderRadius : '500px',
+        duration : 1
+    })
+})
+
+visualIdentityService.addEventListener('mouseleave',function(){
+    gsap.to(visualIdentityService,{
+        scale : 1,
+        duration : 1,
+    })
+        gsap.to(visualIdentityArrow,{
+        transform : 'rotate(45deg)'
+    })
+        gsap.to(visualIdentityShine,{
+        // x : '-50px',
+        width : '20px',
+        height : '20px',
+        duration : 1
+    })
+})
+
+const userResearchService = document.querySelector('.service-container .bottom-row .user-research')
+const userResearchShine = document.querySelector(".service-box-shine-user-research")
+const userResearchArrow = document.querySelector('.service-container .bottom-row .user-research .userresearch-header i')
+
+
+userResearchService.addEventListener('mouseenter',function(){
+    gsap.to(userResearchService,{
+        scale : 1.03,
+        duration : 1,
+    })
+    gsap.to(userResearchArrow,{
+        transform : 'rotate(90deg)'
+    })
+    gsap.to(userResearchShine,{
+        // x : '820px',
+        width : '400px',
+        height : '400px',
+        borderRadius : '500px',
+        duration : 1
+    })
+})
+
+userResearchService.addEventListener('mouseleave',function(){
+    gsap.to(userResearchService,{
+        scale : 1,
+        duration : 1,
+    })
+        gsap.to(userResearchArrow,{
+        transform : 'rotate(45deg)'
+    })
+        gsap.to(userResearchShine,{
+        // x : '-50px',
+        width : '20px',
+        height : '20px',
+        duration : 1
+    })
+})
+
+
+
+const artDirectionService = document.querySelector('.service-container .bottom-row .art-direction')
+const artDirectionShine = document.querySelector(".service-box-shine-art-direction")
+const artDirectionArrow = document.querySelector('.service-container .bottom-row .art-direction .artdirection-header i')
+
+
+artDirectionService.addEventListener('mouseenter',function(){
+    gsap.to(artDirectionService,{
+        scale : 1.03,
+        duration : 1,
+    })
+    gsap.to(artDirectionArrow,{
+        transform : 'rotate(90deg)'
+    })
+    gsap.to(artDirectionShine,{
+        // x : '820px',
+        width : '400px',
+        height : '400px',
+        borderRadius : '500px',
+        duration : 1
+    })
+})
+
+artDirectionService.addEventListener('mouseleave',function(){
+    gsap.to(artDirectionService,{
+        scale : 1,
+        duration : 1,
+    })
+        gsap.to(artDirectionArrow,{
+        transform : 'rotate(45deg)'
+    })
+        gsap.to(artDirectionShine,{
+        // x : '-50px',
+        width : '20px',
+        height : '20px',
+        duration : 1
+    })
+})
