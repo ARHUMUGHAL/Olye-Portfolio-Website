@@ -33,7 +33,6 @@ function NavbarAnimation() {
 }
 NavbarAnimation()
 
-
 function HeroboxAnimation() {
     const span = document.querySelector('.content span p')
     const heroboxH1 = document.querySelector('.content h1')
@@ -99,10 +98,10 @@ function HeroboxAnimation() {
         yoyo: true
     }, 'a')
 }
-
 HeroboxAnimation()
 
-gsap.to('.service-container .heading h1', {
+function ServicesSectionAnimation(){
+    gsap.to('.service-container .heading h1', {
     x: '200px',
     opacity: 1,
     duration: 1,
@@ -276,3 +275,143 @@ artDirectionService.addEventListener('mouseleave',function(){
         duration : 1
     })
 })
+}
+ServicesSectionAnimation()
+
+function WorkSectionAnimation(){
+    const WorkSectionHeader = document.querySelector('.Works .work-container .content-header')
+
+gsap.to(WorkSectionHeader,{
+    y : '-50px',
+    duration : 1,
+    opacity : 1,
+    scrollTrigger : {
+        start : '22% 50%',
+        end : '23% 60%'
+    }
+})
+
+
+gsap.to('.work-container .sub-work-category',{
+    y : '-25%',
+    duration : 1,
+    opacity : 1,
+    scrollTrigger : {
+        start : '23% 50%'
+    },
+    stagger : 0.15
+
+})
+}
+WorkSectionAnimation()
+
+function AboutSectionAnimation(){
+    gsap.to('.about-me-heading h1',{
+    x : '150px',
+    opacity : 1,
+    duration : 1,
+    scrollTrigger :{
+        start : '43% 50%',
+        end : '44% 55%'
+    }
+})
+
+gsap.to('.about-me-container .about-sub-content',{
+    y : '-150px',
+    duration : 1,
+    stagger : 0.15,
+    opacity : 1,
+    scrollTrigger : {
+        start : '44% 50%',
+    }
+})
+
+
+gsap.to('.about-btn .sub-btn',{
+    y : '-50px',
+    duration : 1,
+    stagger : 0.15,
+    opacity : 1,
+    scrollTrigger : {
+        start : '62% 50%'
+    }
+})
+}
+AboutSectionAnimation()
+
+function ReviewSectionAnimation(){
+    gsap.to('.testimonail-header h1',{
+    x : '200px',
+    duration : 1,
+    opacity : 1,
+    scrollTrigger : {
+        start : '66% 50%'
+    }
+})
+
+
+gsap.to('.review',{
+    y : '-150px',
+    duration : 1,
+    opacity : 1,
+    scrollTrigger:{
+        start : '68% 50%'
+    },
+    stagger : 0.15
+
+})
+
+}
+ReviewSectionAnimation()
+
+function ArticleSectionAnimation(){
+    gsap.to('.article-header h1',{
+    x : '200px',
+    duration : 1,
+    opacity : 1,
+    scrollTrigger : {
+        start : '75% 50%'
+    }
+})
+
+
+gsap.to('.article',{
+    y : '-150px',
+    duration : 1,
+    opacity : 1,
+    scrollTrigger:{
+        start : '78% 50%'
+    },
+    stagger : 0.15
+})
+}
+ArticleSectionAnimation()
+
+function ContactSectionAnimation(){
+    
+gsap.to('.work-bar p',{
+    x : '-1000px',
+    duration : 10,
+    repeat : -1
+})
+
+gsap.to('.contact-content',{
+    x : '200px',
+    duration : 1,
+    opacity : 1,
+    scrollTrigger :{
+        start : '88% 50%'
+    }
+})
+
+gsap.to('.contact-form',{
+    x : '-200px',
+    duration : 1,
+    opacity : 1,
+    scrollTrigger :{
+        start : '88% 50%'
+    }
+})
+
+}
+ContactSectionAnimation()
